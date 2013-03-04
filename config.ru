@@ -16,16 +16,20 @@ class SinatraStaticServer < Sinatra::Base
     senders_email = params[:email]
     subject = params[:subject]
     message = params[:message]
-    Gmail.new(ENV['GMAIL_USER'], ENV['GMAIL_PASS']) do |gmail|
-      gmail.deliver do
-        to 'milan@milandobrota.com'
-        subject(subject)
-        text_part do
-          body "#{senders_name} (#{senders_email}) sent you a message: #{message}"
+    if params[:filter] == '' # this should be blank but bots try to fill out all the fields
+      Gmail.new(ENV['GMAIL_USER'], ENV['GMAIL_PASS']) do |gmail|
+        gmail.deliver do
+          to 'milan@milandobrota.com'
+          subject(subject)
+          text_part do
+            body "#{senders_name} (#{senders_email}) sent you a message: #{message}"
+          end
         end
       end
+      send_sinatra_file('email_sent.html')
+    else
+      'no form hacking'
     end
-    send_sinatra_file('email_sent.html')
   end
 
   not_found do
