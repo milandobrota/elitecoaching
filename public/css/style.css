@@ -278,7 +278,8 @@ a img:hover {
 /* -- HEADER
 ------------------------------------------------------------- */
 header#navtop { margin-bottom: 2em; clear: both; overflow: hidden; }
-    header nav ul { float: left; overflow: hidden; padding: 0 3em 0 2em; border-left: 1px solid #ddd; line-height: 2em; }
+header nav ul { float: left; overflow: hidden; padding: 0 3em 0 2em; border-left: 1px solid #ddd; line-height: 2em; }
+header nav ul:first-child { border-left: none; }
 nav a, menu a { text-decoration: none; color: #555; }
 .navactive { color: #0078CF }
 .logo {margin-bottom: 3em;}
