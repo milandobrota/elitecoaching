@@ -17,7 +17,7 @@
   <meta name="description" content="Elite Coaching">
   <meta name="author" content="Milan Dobrota">
 
-  <title>HOME // Elite Coaching</title>
+  <title>{{ page.title }}</title>
   <link rel="author" href="https://plus.google.com/103175952613925523427/posts"/>
 
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=1">
@@ -84,6 +84,28 @@
         <div class="content">
           {{ content }}
         </div>
+
+        <br />
+
+        <!-- twitter follow -->
+        <a href="https://twitter.com/milandobrota" class="twitter-follow-button" data-show-count="false">Follow @milandobrota</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <!-- end twitter follow -->
+
+        <!-- tweet -->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-via="milandobrota">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <!-- end tweet -->
+
+        <br />
+
+        <!-- fb like -->
+        <div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-width="450" data-show-faces="true" data-send="true"></div>
+        <!-- end fb like -->
+
+        <!-- fb follow -->
+        <div class="fb-follow" data-href="https://www.facebook.com/elitepersonalcoaching" data-width="450" data-show-faces="true"></div>
+        <!-- end fb follow -->
 
         <!-- fb comments -->
         <h3>Post Comment</h3>
