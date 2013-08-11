@@ -69,14 +69,27 @@
     </nav>
     </header>
 
-
     <div class="home-page main">
       <section class="grid-wrap" >
-      <header class="grid col-full">
+      <header style="margin-bottom: 0" class="grid col-full">
       <hr>
-      <!--<p class="fleft">Home</p>-->
+      <!--<p class="fleft">Blog</p>-->
       <!--<a href="about.html" class="arrow fright">see more infos</a>-->
       </header>
+
+      <!-- Begin MailChimp Signup Form -->
+      <div style="padding-bottom: 3em" class="grid col-two-thirds mq2-col-full">
+        <div id="mc_embed_signup">
+          <form action="http://milandobrota.us4.list-manage.com/subscribe/post?u=f93f1f6917e77985099ee991f&amp;id=5f3c27faf3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!--<div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>-->
+            <button type="submit" id="Subscribe" name="subscribe" class="button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!--End mc_embed_signup-->
 
       <div class="grid col-two-thirds mq2-col-full">
         {% for post in paginator.posts %}

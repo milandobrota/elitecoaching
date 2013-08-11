@@ -96,8 +96,11 @@ label{display: block; margin-bottom:1em; font-weight: 700;}
 input, select, textarea {
 	border: 1px solid #DDD;
 	color: #777;
-	font-size: 1em;
-	padding: 1em;
+	/*font-size: 1em;*/
+        /* MILAN */
+	font-size: 1.1em;
+	/* padding: 1em; */
+	padding: 0.9em;
 	width:60%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -132,7 +135,9 @@ label.error { color: #0078CF; margin: 0.5em 0 0 0.5em; font-weight: normal; font
 	color: #666;
 	font-size: 1.1em;
 	font-weight: normal;
-	padding: 0.6em 1.2em;
+	/*padding: 0.6em 1.2em;*/
+        /* MILAN */
+	padding: 0.9em 1.2em;
 	text-shadow: 0 1px 0 #fff;
 	border: solid 1px #ddd;
 	text-decoration: none;
