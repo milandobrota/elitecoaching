@@ -1,0 +1,10 @@
+name: Elite Coaching Blog
+description: Motivational Coaching
+url: http://www.elitepersonalcoaching.com
+markdown: redcarpet
+pygments: true
+permalink: :title
+destination: ./public
+exclude: ['Gemfile', 'Gemfile.lock', 'config.ru', 'public', 'README.md']
+paginate: 5
+paginate_path: "blog/:num"

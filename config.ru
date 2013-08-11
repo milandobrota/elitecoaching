@@ -26,7 +26,7 @@ class SinatraStaticServer < Sinatra::Base
           end
         end
       end
-      send_sinatra_file('email_sent.html')
+      send_sinatra_file('email_sent')
     else
       'no form hacking'
     end
