@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Put Off Procrastination - Tip #1"
+title:  "Put Off Procrastination - Tip #1: 15 Minutes"
 date:   2013-08-11 17:50:52
 categories: life coaching procrastination motivation
 ---
