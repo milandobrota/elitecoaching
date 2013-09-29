@@ -192,7 +192,7 @@ h1 {font-size: 4.1em;
 	text-transform: uppercase; 
 	line-height: 0.9; 
 	color: #555;
-	margin: 0 0 0.5em; 
+	margin: 0;
 	font-weight: normal; }
 h2 { font-size: 2.5em; margin: 10px 0 50px; letter-spacing: -0.05em; line-height: 1; }
 h3 { font-size: 1.75em; }
@@ -208,7 +208,7 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{color:#0078CF;
 /* -- GRID  https://github.com/mattberridge/Proportional-Grids/
 ------------------------------------------------------------- */
 body{width:100%;}
-.container {width: 90%; margin: 5em auto; max-width: 1100px; min-width: 300px;}
+.container {width: 90%; margin: 4em auto; max-width: 1100px; min-width: 300px;}
  
 .grid-wrap {
   margin-left: -3em; /* the same as your gutter */
@@ -282,12 +282,12 @@ a img:hover {
     
 /* -- HEADER
 ------------------------------------------------------------- */
-header#navtop { margin-bottom: 2em; clear: both; overflow: hidden; }
+header#navtop { margin-bottom: 2em; clear: both; overflow: hidden; color: #555 }
 header nav ul { float: left; overflow: hidden; padding: 0 3em 0 2em; border-left: 1px solid #ddd; line-height: 2em; }
 header nav ul:first-child { border-left: none; }
 nav a, menu a { text-decoration: none; color: #555; }
 .navactive { color: #0078CF }
-.logo {margin-bottom: 3em;}
+/*.logo {margin-bottom: 3em;}*/
 .logo:hover {background: none;}
 		
 		
@@ -598,7 +598,11 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
 
 ul.regular-list {list-style:disc outside none; margin:0; padding:0 40px;}
  
- 
+.photo-container {
+  margin-bottom: 3em;
+  color: #999;
+  font-size: 11px;
+}
  
 /* -------------------------------------------------------------
 ======	END
