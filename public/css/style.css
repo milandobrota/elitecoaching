@@ -603,6 +603,10 @@ ul.regular-list {list-style:disc outside none; margin:0; padding:0 40px;}
   color: #999;
   font-size: 11px;
 }
+
+.logo div {
+  padding-left: 5px;
+}
  
 /* -------------------------------------------------------------
 ======	END
