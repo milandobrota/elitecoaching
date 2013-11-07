@@ -14,7 +14,12 @@
 
   <meta name="viewport" content="width=device-width">
 
-  <meta name="description" content="I inspire, motivate, energize and support people in achieving their goals.">
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% else %}
+    <meta name="description" content="I inspire, motivate, energize and support people in achieving their goals.">
+  {% endif %}
+
   <meta name="author" content="Milan Dobrota">
 
   <title>{{ page.title }}</title>
