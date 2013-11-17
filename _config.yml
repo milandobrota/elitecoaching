@@ -1,6 +1,6 @@
 name: Elite Coaching Blog
 description: Motivational Coaching
-url: http://www.elitepersonalcoaching.com
+url: http://www.elitecoaching.us
 markdown: redcarpet
 pygments: true
 permalink: :title
