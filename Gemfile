@@ -7,4 +7,3 @@ gem 'sinatra'
 gem 'thin'
 gem 'ruby-gmail'
 gem 'jekyll'
-gem 'debugger', :require => false
