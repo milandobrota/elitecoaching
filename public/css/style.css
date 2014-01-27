@@ -608,7 +608,7 @@ ul.regular-list {list-style:disc outside none; margin:0; padding:0 40px;}
   padding-left: 5px;
 }
 
-.logo a {
+.logo a, h2 a:hover {
   text-decoration: none;
 }
 
